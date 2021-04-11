@@ -72,7 +72,7 @@ class Vector3:
     throw "UNSUPPORTED_TYPE"
 
   dot other/Vector3 -> float:
-    return x * other.x + y * other.y + z + other.z
+    return x * other.x + y * other.y + z * other.z
 
   cross other/Vector3 -> Vector3:
     return Vector3
